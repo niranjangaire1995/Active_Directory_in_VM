@@ -183,31 +183,82 @@ After fixing two bugs, I was prompted for Admin username and password to join th
 
 
 
-
+I was able to join the domain.
 <img width="1027" height="800" alt="Screenshot 2025-11-13 014851" src="https://github.com/user-attachments/assets/2b706292-9994-42e3-ba3a-b7c4b5a5c2fd" />
 
 
 
 
+Now creating a user account:
+Go to active directory user and computers -> click the domain name and click the human looking button in the status bar to add a user 
+<img width="1147" height="856" alt="Screenshot 2025-11-13 131741" src="https://github.com/user-attachments/assets/3e6692a2-4a8a-4a1f-967f-92d5e547482c" />
+<img width="938" height="674" alt="Screenshot 2025-11-13 132103" src="https://github.com/user-attachments/assets/36d6f88b-2397-4cc6-bd9d-d5655457edb1" />
+
+Naming Convention is first initial last name i.e Ngaire for user logon name:
+<img width="1149" height="862" alt="Screenshot 2025-11-13 132455" src="https://github.com/user-attachments/assets/f579f689-222c-4ace-84d3-912d81eed856" />
+
+
+
+<img width="1155" height="874" alt="Screenshot 2025-11-13 133058" src="https://github.com/user-attachments/assets/0578a16c-b9fb-4782-b5e0-50c8ac91d242" />
+
+
+
+Apply setting if the user has to change the password at next logon and othe settings as required:
+
+<img width="1156" height="861" alt="Screenshot 2025-11-13 133156" src="https://github.com/user-attachments/assets/a950ba30-256c-496c-a177-ba0aff043d5b" />
+
+
+To delete we simply click the user and the red cross on the status bar:
+<img width="1160" height="859" alt="Screenshot 2025-11-13 220436" src="https://github.com/user-attachments/assets/f575fee7-9ab4-49bf-be88-4141a3932d05" />
+
+Restarting and reloggin the user of the AD:
+<img width="1039" height="767" alt="Screenshot 2025-11-13 220835" src="https://github.com/user-attachments/assets/5d2f84e5-0690-4912-b7c5-b70f93c2a912" />
+User is prompted to change password on their first logon:
+<img width="1022" height="768" alt="Screenshot 2025-11-13 221001" src="https://github.com/user-attachments/assets/e5941a6d-06b1-4655-baa8-b482ca30505a" />
+
+<img width="997" height="726" alt="Screenshot 2025-11-13 221038" src="https://github.com/user-attachments/assets/7f1fa0c7-3b8e-4cea-9706-9c5fbe22269a" />
 
 
 
 
 
+<img width="997" height="726" alt="Screenshot 2025-11-13 221038" src="https://github.com/user-attachments/assets/6738fbb4-57ea-4f09-bd63-4398687a614c" />
+
+<img width="1015" height="756" alt="Screenshot 2025-11-13 221057" src="https://github.com/user-attachments/assets/4f93574f-a7de-4f47-8bb3-81cd67209e0b" />
+
+
+now making a shared folder for the users in the ad:
+<img width="780" height="596" alt="Screenshot 2025-11-13 221210" src="https://github.com/user-attachments/assets/c32c5390-e63b-4e3b-8752-e91f4bda4876" />
+
+Chooose a drive and make a folder and go to properties and share the folder
+<img width="890" height="718" alt="Screenshot 2025-11-13 221343" src="https://github.com/user-attachments/assets/92fc3248-3099-478f-b753-4943993c3b84" />
+
+
+Add ngaire to the share thingy:
+<img width="848" height="690" alt="Screenshot 2025-11-13 221421" src="https://github.com/user-attachments/assets/5bbe2a53-c9ed-447c-8431-dc9e68ee1bc0" />
+
+we can edit permission level i.e read write execute.
+
+<img width="828" height="706" alt="Screenshot 2025-11-13 221429" src="https://github.com/user-attachments/assets/49aadcb1-7b11-4f8d-8ada-18a373a2e7e2" />
 
 
 
 
+From the windows + R button, we get this search bar and we enter double forware slashes followed by the Ip of the Server with dhcp:
+<img width="1011" height="756" alt="Screenshot 2025-11-13 223312" src="https://github.com/user-attachments/assets/cee5038a-bff1-45a9-b877-e18002f92386" />
+we are taken to the network folder containing the folder we created.
+
+<img width="1022" height="765" alt="Screenshot 2025-11-13 223326" src="https://github.com/user-attachments/assets/dd77b4c5-7992-4552-9d6b-bf58e269cb97" />
+pinging pc with the domain name instead:
+<img width="1036" height="766" alt="Screenshot 2025-11-13 223603" src="https://github.com/user-attachments/assets/eca09b1e-3333-4375-b974-5a72c67e8d70" />
+
+To apply a group policy management for changing the wallpaper for the client using the server.
+<img width="1159" height="864" alt="Screenshot 2025-11-13 225304" src="https://github.com/user-attachments/assets/9d760092-36e0-4fd5-9b5c-d9d4dfd130aa" />
 
 
+Right click on the starter GPOs:
 
-
-
-
-
-
-
-
+<img width="1138" height="861" alt="Screenshot 2025-11-13 231007" src="https://github.com/user-attachments/assets/22e8c75d-761f-4533-87af-70b4eb632212" />
 
 
 
