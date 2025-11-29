@@ -102,6 +102,20 @@ Set the password and click next
 <img width="1023" height="772" alt="Screenshot 2025-11-13 011414" src="https://github.com/user-attachments/assets/70271bfe-50a1-4443-856e-960ebb2d12e3" />
 
 The NetBIOS domain name : mine was homelab.
+<img width="1019" height="768" alt="Screenshot 2025-11-13 011508" src="https://github.com/user-attachments/assets/dbd551ad-95fa-4c5d-b6a3-51652a66b579" />
+
+Next -> Next -> Next
+<img width="1028" height="770" alt="Screenshot 2025-11-13 011529" src="https://github.com/user-attachments/assets/56ab6769-3799-42d9-b4e3-f6e646443dfd" />
+<img width="1024" height="763" alt="Screenshot 2025-11-13 011549" src="https://github.com/user-attachments/assets/34a4296b-e7e9-415d-bf83-1d1404ecb209" />
+
+Click Install ->
+<img width="1022" height="759" alt="Screenshot 2025-11-13 011604" src="https://github.com/user-attachments/assets/e948380a-19c0-45c7-b13f-f2d903cad1b1" />
+
+It will restart the system:
+<img width="1027" height="774" alt="Screenshot 2025-11-13 011700" src="https://github.com/user-attachments/assets/83bed873-b51a-4f0e-8843-ca6cb9032ff4" />
+
+We will see the Administrator login page upon login, the password is what we set up earlier.
+<img width="1023" height="768" alt="Screenshot 2025-11-13 012132" src="https://github.com/user-attachments/assets/6833e380-322c-4fce-8666-f17dcc8b3c55" />
 
 
 
@@ -110,6 +124,38 @@ The DNS is the server IP that the client will use.
 Alterate DNS is set up as google DNS.
 
 <img width="494" height="560" alt="Screenshot 2025-11-13 004631" src="https://github.com/user-attachments/assets/3c057356-ad46-48df-a99b-cc00c79c8f08" />
+
+Upon opening the Server Manager page we see the flag with yellow exclamation that says complete DHCP Config. This is where we set up dhcp so that client gets ip from this server.
+
+<img width="1029" height="771" alt="Screenshot 2025-11-13 012237" src="https://github.com/user-attachments/assets/f8c73b72-b28b-4dfd-a9b3-d3ebdb421645" />
+
+Click use the following user credential for DHCP server: UserName is what we used earlier i.e HOMELAB\Adminstrator -> Click commit button
+
+<img width="765" height="560" alt="Screenshot 2025-11-13 012332" src="https://github.com/user-attachments/assets/b8417a68-4156-4920-94f7-b7e537d92e13" />
+
+
+Tools -> DHCP
+
+<img width="1020" height="767" alt="Screenshot 2025-11-13 012426" src="https://github.com/user-attachments/assets/d3f5a3c3-f9d1-4987-be94-5d803ba2232c" />
+
+we see this window:
+<img width="946" height="695" alt="Screenshot 2025-11-13 012505" src="https://github.com/user-attachments/assets/c8a01274-d1f8-47f3-9101-af5ec47fb970" />
+
+Right click the IPV4 -> New Scope:
+<img width="1022" height="762" alt="Screenshot 2025-11-13 012521" src="https://github.com/user-attachments/assets/3bcd7818-5a52-4c71-a84c-4a352d158036" />
+
+
+
+Since we know the Net ID, and the first one is the default gateway i.e 10.0.2.1, we put the 10.0.2.2 as the start ip and end ip is 10.0.2.253 since 10.0.2.254 is the server's own address. 
+while .255 is the broadcast address.The length /24  is the subnet.
+<img width="1031" height="762" alt="Screenshot 2025-11-13 013007" src="https://github.com/user-attachments/assets/266f63f2-86f2-4209-b02b-2ab46b6f0155" />
+
+
+The lease period for the IP 
+
+
+
+
 
 
 
