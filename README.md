@@ -151,9 +151,40 @@ while .255 is the broadcast address.The length /24  is the subnet.
 <img width="1031" height="762" alt="Screenshot 2025-11-13 013007" src="https://github.com/user-attachments/assets/266f63f2-86f2-4209-b02b-2ab46b6f0155" />
 
 
-The lease period for the IP 
+The lease period for the IP is set up here:
+<img width="953" height="692" alt="Screenshot 2025-11-13 013045" src="https://github.com/user-attachments/assets/b9d685e2-a812-467f-91c7-fc6ba6c23380" />
 
 
+This step is asking for the Default Gateway for the client:
+<img width="947" height="699" alt="Screenshot 2025-11-13 013130" src="https://github.com/user-attachments/assets/97719c09-69cd-4081-8f1a-3e099d6cae4c" />
+
+Next step is again about the parent domain i.e, homelab.local that was set up earlier.
+we add the server Ip here:
+<img width="1025" height="762" alt="Screenshot 2025-11-13 013151" src="https://github.com/user-attachments/assets/31d66586-db2e-4673-83f4-ee247c868ce9" />
+
+After clicking Next -> the scope is added now -> we can see it in the scope -? address leases
+<img width="1009" height="729" alt="Screenshot 2025-11-13 013645" src="https://github.com/user-attachments/assets/3bd5ae93-5d6d-4403-81fa-247dea150f4e" />
+
+
+
+The client machine can ping the server vm ip address:
+<img width="1033" height="863" alt="Screenshot 2025-11-13 014040" src="https://github.com/user-attachments/assets/f76d7c29-7d3b-4b3f-a48a-c30f8a8192b4" />
+
+
+Now i went to the advanced system settings and I clicked the change domain and added the domain i.e homelab.local 
+It couldnt join the domain.
+The reason number 1 was because I forgot the uncheck the dhcp in the NAT setting of the vm and I didnt assign the DNS of the client as the server dns.
+
+<img width="1011" height="762" alt="Screenshot 2025-11-13 014644" src="https://github.com/user-attachments/assets/48d9da17-0415-47a5-9f24-13b70e01fb0c" />
+
+
+After fixing two bugs, I was prompted for Admin username and password to join the domain.
+<img width="1011" height="834" alt="Screenshot 2025-11-13 014747" src="https://github.com/user-attachments/assets/83993063-645a-461d-94d1-1085872c05d2" />
+
+
+
+
+<img width="1027" height="800" alt="Screenshot 2025-11-13 014851" src="https://github.com/user-attachments/assets/2b706292-9994-42e3-ba3a-b7c4b5a5c2fd" />
 
 
 
