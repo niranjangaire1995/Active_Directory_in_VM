@@ -122,6 +122,8 @@ We will see the Administrator login page upon login, the password is what we set
 The Network Setting of the VM should be set up like this. The Default Gateway(10.0.2.1/24) is the closest to the Network ID i.e 10.0.2.0/24.
 The DNS is the server IP that the client will use. 
 Alterate DNS is set up as google DNS.
+We need to setup static ip for the server because this is what will be used by the server. Since this server is also the dhcp server, we need to setup the serve like this way.
+
 
 <img width="494" height="560" alt="Screenshot 2025-11-13 004631" src="https://github.com/user-attachments/assets/3c057356-ad46-48df-a99b-cc00c79c8f08" />
 
@@ -179,6 +181,9 @@ The reason number 1 was because I forgot the uncheck the dhcp in the NAT setting
 
 
 After fixing two bugs, I was prompted for Admin username and password to join the domain.
+The client will need the server ip as dns otherwise the client cannot join the domain.
+Since Client is getting ip from the dhcp server aka the domain controller for us, we have to set it to obtain ip automatically.
+The DNS is the server IP address.
 <img width="1011" height="834" alt="Screenshot 2025-11-13 014747" src="https://github.com/user-attachments/assets/83993063-645a-461d-94d1-1085872c05d2" />
 
 
@@ -256,9 +261,17 @@ To apply a group policy management for changing the wallpaper for the client usi
 <img width="1159" height="864" alt="Screenshot 2025-11-13 225304" src="https://github.com/user-attachments/assets/9d760092-36e0-4fd5-9b5c-d9d4dfd130aa" />
 
 
-Right click on the starter GPOs:
+Right click on the starter GPOs -> Click Edit -> User Configuration -> Policies -> Administrative Templates -> Desktop -> Again Desktop -> Click Desktop Wallpaper on the right 
 
-<img width="1138" height="861" alt="Screenshot 2025-11-13 231007" src="https://github.com/user-attachments/assets/22e8c75d-761f-4533-87af-70b4eb632212" />
+
+<img width="752" height="527" alt="Screenshot 2025-11-14 002104" src="https://github.com/user-attachments/assets/8a66a421-d188-4aa2-a494-a48199f849bd" />
+
+
+<img width="1121" height="635" alt="Screenshot 2025-11-14 002332" src="https://github.com/user-attachments/assets/d70b9d1e-745e-4bb1-89ad-d44f7633a3da" />
+
+Click Wallpaper Name and add the path of the file 
+Note: Dont miss the full file path including the file extension otherwise it wont work !
+<img width="1288" height="714" alt="Screenshot 2025-11-14 002541" src="https://github.com/user-attachments/assets/222593d5-97fd-4984-bb75-20ca19b4ed87" />
 
 
 
