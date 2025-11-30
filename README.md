@@ -258,6 +258,10 @@ pinging pc with the domain name instead:
 <img width="1036" height="766" alt="Screenshot 2025-11-13 223603" src="https://github.com/user-attachments/assets/eca09b1e-3333-4375-b974-5a72c67e8d70" />
 
 To apply a group policy management for changing the wallpaper for the client using the server.
+
+Copy the file path, share the file to the client pc folder and get the link and use that link to paste in the desktop wallpaper setting shown below:
+<img width="435" height="496" alt="Screenshot 2025-11-14 002236" src="https://github.com/user-attachments/assets/27190f79-2055-4131-8805-16fdf2bb1f28" />
+
 <img width="1159" height="864" alt="Screenshot 2025-11-13 225304" src="https://github.com/user-attachments/assets/9d760092-36e0-4fd5-9b5c-d9d4dfd130aa" />
 
 
@@ -273,5 +277,8 @@ Click Wallpaper Name and add the path of the file
 Note: Dont miss the full file path including the file extension otherwise it wont work !
 <img width="1288" height="714" alt="Screenshot 2025-11-14 002541" src="https://github.com/user-attachments/assets/222593d5-97fd-4984-bb75-20ca19b4ed87" />
 
+from cmd do the command gpupdate /force
+<img width="1255" height="686" alt="Screenshot 2025-11-14 002711" src="https://github.com/user-attachments/assets/ab3b215b-7898-4399-96bf-d531756bd5ac" />
+<img width="1298" height="715" alt="Screenshot 2025-11-14 002718" src="https://github.com/user-attachments/assets/add800d4-2ba2-4551-9b41-49afbaacf89a" />
 
 
